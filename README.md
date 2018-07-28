@@ -1,8 +1,6 @@
-## Welcome to GitHub Pages
+## 欢迎来到我的Github
 
-You can use the [editor on GitHub](https://github.com/luckyPT/luckyPT/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+十分感谢您能来到我的Github，这也是一种缘分！我是一名软件开发工程师(Software Development Engineer),主要从事java服务端工程项目开发以及机器学习系统的开发，在工程与算法方面都一定的经验积累，希望在这里能够有更多的志同道合之人，多多沟通交流！
 
 ### Markdown
 
