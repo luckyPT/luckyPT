@@ -5,26 +5,6 @@
 
 ### 机器学习
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
 [个人对机器学习的理解](https://guides.github.com/features/mastering-markdown/).
 
 [入门算法之线性回归](https://guides.github.com/features/mastering-markdown/).
@@ -33,11 +13,34 @@ Syntax highlighted code block
 
 ### Java编程
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/luckyPT/luckyPT/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+[数据类型](https://guides.github.com/features/mastering-markdown/).
+
+[集合类](https://guides.github.com/features/mastering-markdown/).
+
+[输入输出流](https://guides.github.com/features/mastering-markdown/).
+
+[多线程](https://guides.github.com/features/mastering-markdown/).
+
+[内存结构与垃圾回收](https://guides.github.com/features/mastering-markdown/).
+
+[常用的监控命令](https://guides.github.com/features/mastering-markdown/).
 
 ### 服务端组件
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[MySql](https://guides.github.com/features/mastering-markdown/).
 
+[Redis](https://guides.github.com/features/mastering-markdown/).
+
+[kafka](https://guides.github.com/features/mastering-markdown/).
+
+[zookeeper](https://guides.github.com/features/mastering-markdown/).
 
 ### 大数据组件
+
+[Hadoop](https://guides.github.com/features/mastering-markdown/).
+
+[spark](https://guides.github.com/features/mastering-markdown/).
+
+[hbase](https://guides.github.com/features/mastering-markdown/).
+
+[ElasticSearch](https://guides.github.com/features/mastering-markdown/).
