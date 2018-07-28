@@ -5,42 +5,42 @@
 
 ### 机器学习
 
-[个人对机器学习的理解](https://guides.github.com/features/mastering-markdown/).
+[1.个人对机器学习的理解](https://guides.github.com/features/mastering-markdown/).
 
-[入门算法之线性回归](https://guides.github.com/features/mastering-markdown/).
+[2.入门算法之线性回归](https://guides.github.com/features/mastering-markdown/).
 
-[入门算法之逻辑回归](https://guides.github.com/features/mastering-markdown/).
+[3.入门算法之逻辑回归](https://guides.github.com/features/mastering-markdown/).
 
 ### Java编程
 
-[数据类型](https://guides.github.com/features/mastering-markdown/).
+[1.数据类型](https://guides.github.com/features/mastering-markdown/).
 
-[集合类](https://guides.github.com/features/mastering-markdown/).
+[2.集合类](https://guides.github.com/features/mastering-markdown/).
 
-[输入输出流](https://guides.github.com/features/mastering-markdown/).
+[3.输入输出流](https://guides.github.com/features/mastering-markdown/).
 
-[多线程](https://guides.github.com/features/mastering-markdown/).
+[4.多线程](https://guides.github.com/features/mastering-markdown/).
 
-[内存结构与垃圾回收](https://guides.github.com/features/mastering-markdown/).
+[5.内存结构与垃圾回收](https://guides.github.com/features/mastering-markdown/).
 
-[常用的监控命令](https://guides.github.com/features/mastering-markdown/).
+[6.常用的监控命令](https://guides.github.com/features/mastering-markdown/).
 
 ### 服务端组件
 
-[MySql](https://guides.github.com/features/mastering-markdown/).
+[1.MySql](https://guides.github.com/features/mastering-markdown/).
 
-[Redis](https://guides.github.com/features/mastering-markdown/).
+[2.Redis](https://guides.github.com/features/mastering-markdown/).
 
-[kafka](https://guides.github.com/features/mastering-markdown/).
+[3.kafka](https://guides.github.com/features/mastering-markdown/).
 
-[zookeeper](https://guides.github.com/features/mastering-markdown/).
+[4.zookeeper](https://guides.github.com/features/mastering-markdown/).
 
 ### 大数据组件
 
-[Hadoop](https://guides.github.com/features/mastering-markdown/).
+[1.Hadoop](https://guides.github.com/features/mastering-markdown/).
 
-[spark](https://guides.github.com/features/mastering-markdown/).
+[2.spark](https://guides.github.com/features/mastering-markdown/).
 
-[hbase](https://guides.github.com/features/mastering-markdown/).
+[3.hbase](https://guides.github.com/features/mastering-markdown/).
 
-[ElasticSearch](https://guides.github.com/features/mastering-markdown/).
+[4.ElasticSearch](https://guides.github.com/features/mastering-markdown/).
