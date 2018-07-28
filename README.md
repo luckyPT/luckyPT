@@ -5,7 +5,7 @@
 
 ### 机器学习
 
-[1.个人对机器学习的理解](/docs/ml/1.md).
+[1.个人对机器学习的理解](/docs/ml/1.md){:target="_blank"}
 
 [2.入门算法之线性回归](https://guides.github.com/features/mastering-markdown/).
 
