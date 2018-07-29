@@ -7,7 +7,7 @@
 
 [1.个人对机器学习的理解](/docs/ml/1.md){:target="_blank"}
 
-[2.入门算法之线性回归](https://guides.github.com/features/mastering-markdown/).
+[2.入门算法之线性回归](/docs/ml/2.md){:target="_blank"}
 
 [3.入门算法之逻辑回归](https://guides.github.com/features/mastering-markdown/).
 
