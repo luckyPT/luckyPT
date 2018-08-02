@@ -13,6 +13,26 @@
 
 [4.常见的概率分布](/docs/ml/4.md){:target="_blank"}
 
+[5.过拟合与欠拟合](/docs/ml/5.md){:target="_blank"}
+
+[6.决策树](/docs/ml/6.md){:target="_blank"}
+
+[7.集成学习算法](/docs/ml/7.md){:target="_blank"}
+
+[8.随机森林&GBDT&xgboost](/docs/ml/8.md){:target="_blank"}
+
+[9.深度学习DNN](/docs/ml/9.md){:target="_blank"}
+
+[10.激活函数&优化器](/docs/ml/10.md){:target="_blank"}
+
+[11.CNN](/docs/ml/11.md){:target="_blank"}
+
+[12.RNN&LSTM](/docs/ml/12.md){:target="_blank"}
+
+[13.语言模型](/docs/ml/13.md){:target="_blank"}
+
+[14.fastText](/docs/ml/14.md){:target="_blank"}
+
 ### Java编程
 
 [1.数据类型](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
@@ -36,6 +56,12 @@
 [3.kafka](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
 
 [4.zookeeper](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
+
+[5.thrift](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
+
+#### 框架
+
+[6.spring](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
 
 ### 大数据组件
 
