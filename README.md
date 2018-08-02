@@ -11,6 +11,8 @@
 
 [3.入门算法之逻辑回归](https://guides.github.com/features/mastering-markdown/).
 
+[4.常见的概率分布](https://guides.github.com/features/mastering-markdown/).
+
 ### Java编程
 
 [1.数据类型](https://guides.github.com/features/mastering-markdown/).
@@ -39,7 +41,7 @@
 
 [1.Hadoop](https://guides.github.com/features/mastering-markdown/).
 
-[2.spark](https://guides.github.com/features/mastering-markdown/).
+[2.spark任务调优](https://guides.github.com/features/mastering-markdown/).
 
 [3.hbase](https://guides.github.com/features/mastering-markdown/).
 
