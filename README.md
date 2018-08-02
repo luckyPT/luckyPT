@@ -9,9 +9,9 @@
 
 [2.入门算法之线性回归](/docs/ml/2.md){:target="_blank"}
 
-[3.入门算法之逻辑回归](https://guides.github.com/features/mastering-markdown/).
+[3.入门算法之逻辑回归](/docs/ml/3.md).
 
-[4.常见的概率分布](https://guides.github.com/features/mastering-markdown/).
+[4.常见的概率分布](/docs/ml/4.md).
 
 ### Java编程
 
