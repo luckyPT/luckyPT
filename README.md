@@ -9,40 +9,40 @@
 
 [2.入门算法之线性回归](/docs/ml/2.md){:target="_blank"}
 
-[3.入门算法之逻辑回归](/docs/ml/3.md).
+[3.入门算法之逻辑回归](/docs/ml/3.md){:target="_blank"}
 
-[4.常见的概率分布](/docs/ml/4.md).
+[4.常见的概率分布](/docs/ml/4.md){:target="_blank"}
 
 ### Java编程
 
-[1.数据类型](https://guides.github.com/features/mastering-markdown/).
+[1.数据类型](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
 
-[2.集合类](https://guides.github.com/features/mastering-markdown/).
+[2.集合类](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
 
-[3.输入输出流](https://guides.github.com/features/mastering-markdown/).
+[3.输入输出流](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
 
-[4.多线程](https://guides.github.com/features/mastering-markdown/).
+[4.多线程](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
 
-[5.内存结构与垃圾回收](https://guides.github.com/features/mastering-markdown/).
+[5.内存结构与垃圾回收](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
 
-[6.常用的监控命令](https://guides.github.com/features/mastering-markdown/).
+[6.常用的监控命令](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
 
 ### 服务端组件
 
-[1.MySql](https://guides.github.com/features/mastering-markdown/).
+[1.MySql](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
 
-[2.Redis](https://guides.github.com/features/mastering-markdown/).
+[2.Redis](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
 
-[3.kafka](https://guides.github.com/features/mastering-markdown/).
+[3.kafka](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
 
-[4.zookeeper](https://guides.github.com/features/mastering-markdown/).
+[4.zookeeper](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
 
 ### 大数据组件
 
-[1.Hadoop](https://guides.github.com/features/mastering-markdown/).
+[1.Hadoop](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
 
-[2.spark任务调优](https://guides.github.com/features/mastering-markdown/).
+[2.spark任务调优](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
 
-[3.hbase](https://guides.github.com/features/mastering-markdown/).
+[3.hbase](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
 
-[4.ElasticSearch](https://guides.github.com/features/mastering-markdown/).
+[4.ElasticSearch](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
