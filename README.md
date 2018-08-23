@@ -59,11 +59,13 @@
 
 [4.zookeeper](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
 
-[5.thrift](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
-
 #### 框架
 
+[5.thrift](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
+
 [6.spring](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
+
+[6.mybatis](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
 
 ### 大数据组件
 
