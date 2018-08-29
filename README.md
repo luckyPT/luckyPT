@@ -36,17 +36,17 @@
 
 ### Java编程
 
-[1.数据类型](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
+[1.数据类型](/docs/java/1.md){:target="_blank"}
 
-[2.集合类](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
+[2.集合类](/docs/java/2.md){:target="_blank"}
 
-[3.输入输出流](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
+[3.输入输出流](/docs/java/3.md){:target="_blank"}
 
-[4.多线程](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
+[4.多线程](/docs/java/4.md){:target="_blank"}
 
-[5.内存结构与垃圾回收](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
+[5.内存结构与垃圾回收](/docs/java/5.md){:target="_blank"}
 
-[6.常用的监控命令](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
+[6.常用的监控命令](/docs/java/6.md){:target="_blank"}
 
 ### 服务端组件
 
