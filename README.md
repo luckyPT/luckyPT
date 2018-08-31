@@ -34,6 +34,20 @@
 
 [15.机器学习项目如何开展](/docs/ml/15.md){:target="_blank"}
 
+[16.面试精选](/docs/ml/16.md){:target="_blank"}
+
+### python
+
+[1.基础知识](/docs/python/1.md){:target="_blank"}
+
+[2.numpy](/docs/python/2.md){:target="_blank"}
+
+[3.pandas](/docs/python/3.md){:target="_blank"}
+
+[4.TensorFlow](/docs/python/4.md){:target="_blank"}
+
+[5.面试精选](/docs/python/5.md){:target="_blank"}
+
 ### Java编程
 
 [1.数据类型](/docs/java/1.md){:target="_blank"}
@@ -48,6 +62,8 @@
 
 [6.常用的监控命令](/docs/java/6.md){:target="_blank"}
 
+[7.面试精选](/docs/java/7.md){:target="_blank"}
+
 ### 服务端组件
 
 [1.MySql](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
@@ -58,6 +74,8 @@
 
 [4.zookeeper](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
 
+[5.面试精选](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
+
 #### 框架
 
 [5.thrift](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
@@ -65,6 +83,8 @@
 [6.spring](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
 
 [7.mybatis](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
+
+[8.面试精选](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
 
 ### 大数据组件
 
@@ -75,3 +95,5 @@
 [3.hbase](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
 
 [4.ElasticSearch](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
+
+[5.面试精选](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
