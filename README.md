@@ -58,6 +58,8 @@
 
 [3.输入输出流](/docs/java/3.md){:target="_blank"}
 
+[3_1.NIO](/docs/java/3_1.md){:target="_blank"}
+
 [4.多线程](/docs/java/4.md){:target="_blank"}
 
 [5.内存结构与垃圾回收](/docs/java/5.md){:target="_blank"}
