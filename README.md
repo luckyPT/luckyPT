@@ -88,7 +88,9 @@
 
 [7.mybatis](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
 
-[8.面试精选](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
+[8.druid](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
+
+[9.面试精选](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
 
 ### 大数据组件
 
