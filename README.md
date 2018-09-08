@@ -20,6 +20,8 @@
 
 [8.随机森林&GBDT&xgboost](/docs/ml/8.md){:target="_blank"}
 
+[8_1.支持向量机SVM](/docs/ml/8_1.md){:target="_blank"}
+
 [9.深度学习DNN](/docs/ml/9.md){:target="_blank"}
 
 [10.激活函数&优化器](/docs/ml/10.md){:target="_blank"}
