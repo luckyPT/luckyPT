@@ -64,6 +64,8 @@
 
 [4.多线程](/docs/java/4.md){:target="_blank"}
 
+[4_1.异常体系及最佳实践](/docs/java/4_1.md){:target="_blank"}
+
 [5.内存结构与垃圾回收](/docs/java/5.md){:target="_blank"}
 
 [6.常用的监控命令](/docs/java/6.md){:target="_blank"}
