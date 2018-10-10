@@ -109,3 +109,10 @@
 [4.ElasticSearch](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
 
 [5.面试精选](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
+
+### others
+
+[1.事故记录](/docs/others/1.md){:target="_blank"}
+
+
+
