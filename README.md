@@ -50,7 +50,9 @@
 
 [4.TensorFlow](/docs/python/4.md){:target="_blank"}
 
-[5.面试精选](/docs/python/5.md){:target="_blank"}
+[5.Keras](/docs/python/5.md){:target="_blank"}
+
+[6.面试精选](/docs/python/6.md){:target="_blank"}
 
 ### Java编程
 
