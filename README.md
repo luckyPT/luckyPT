@@ -102,7 +102,7 @@
 
 ### 大数据组件
 
-[1.Hadoop](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
+[1.Hadoop](/docs/bigData/1.md){:target="_blank"}
 
 [2.spark任务调优](/docs/bigData/2.md){:target="_blank"}
 
