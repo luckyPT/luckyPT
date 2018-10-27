@@ -104,7 +104,7 @@
 
 [1.Hadoop](/docs/bigData/1.md){:target="_blank"}
 
-[2.spark任务调优](/docs/bigData/2.md){:target="_blank"}
+[2.spark](/docs/bigData/2.md){:target="_blank"}
 
 [3.hbase](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
 
