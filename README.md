@@ -14,6 +14,8 @@
 
 [5.过拟合与欠拟合](/docs/ml/5.md){:target="_blank"}
 
+[5_1.贝叶斯相关](/docs/ml/5_1.md){:target="_blank"}
+
 [6.决策树](/docs/ml/6.md){:target="_blank"}
 
 [7.集成学习算法](/docs/ml/7.md){:target="_blank"}
