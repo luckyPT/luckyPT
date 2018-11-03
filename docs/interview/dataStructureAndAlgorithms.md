@@ -137,9 +137,26 @@ postOrderTraversal(Node root){
 ```
 postOrderTraversal(Node root){
   if(root==null) return;
-  
+  Stack<Node> s1 = new Stack<>();
+  Stack<Node> s2 = new Stack<>();
+  s1.push(root)
+  while(!s1.isEmpty()){
+    head = s1.pop()
+    s2.push(head)
+    //注意，这里先压入left，才能后弹出，s2才能后压入left；对s2遍历的时候才能先遍历left
+    if(head.left!=null){
+      s1.push(head.left)
+    }
+    if(head.right!=null){
+      s1.push(head.right)
+    }
+  }
+  while(!s2.isEmpty()){
+    visit(s2.pop())
+  }
 }
 ```
+广度优先遍历：<br>
 
 #### 堆 & 堆排序
 
