@@ -40,7 +40,7 @@
 
 [15.机器学习项目如何开展](/docs/ml/15.md){:target="_blank"}
 
-[16.面试精选](/docs/ml/16.md){:target="_blank"}
+<!-- [16.面试精选](/docs/ml/16.md){:target="_blank"} -->
 
 ### python
 
@@ -54,7 +54,7 @@
 
 [5.Keras](/docs/python/5.md){:target="_blank"}
 
-[6.面试精选](/docs/python/6.md){:target="_blank"}
+<!-- [6.面试精选](/docs/python/6.md){:target="_blank"} -->
 
 ### Java编程
 
@@ -74,7 +74,7 @@
 
 [6.常用的监控命令](/docs/java/6.md){:target="_blank"}
 
-[7.面试精选](/docs/java/7.md){:target="_blank"}
+<!-- [7.面试精选](/docs/java/7.md){:target="_blank"} -->
 
 ### 服务端组件
 
@@ -88,7 +88,7 @@
 
 [4.docker](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
 
-[6.面试精选](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
+<!-- [6.面试精选](https://guides.github.com/features/mastering-markdown/){:target="_blank"} -->
 
 #### 框架
 
@@ -100,7 +100,7 @@
 
 [8.druid](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
 
-[9.面试精选](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
+<!-- [9.面试精选](https://guides.github.com/features/mastering-markdown/){:target="_blank"} -->
 
 ### 大数据组件
 
@@ -112,7 +112,7 @@
 
 [4.ElasticSearch](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
 
-[5.面试精选](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
+<!-- [5.面试精选](https://guides.github.com/features/mastering-markdown/){:target="_blank"} -->
 
 ### others
 
