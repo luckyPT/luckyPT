@@ -70,8 +70,45 @@ function2(array,start,end){
 无论哪种遍历方式都是先左后右。
 
 先序遍历思路：<br>
+①使用递归实现，伪代码：
+```
+preOrderTraversal(Node root){
+  if(root==null) return;
+  print(root.value);
+  preOrderTraverse(root.left);
+  preOrderTraverse(root.right);
+}
+```
+②使用循环实现：<br>
+```
+Stack<Node> stack=new Stack<>();
+preOrderTraversal(Node root){
+  if(root==null) return;
+  stack.push(root);
+  while(!stack.isEmpty()){
+     Node node = stack.pop()
+     System.out.println(node)
+     stack.push(node.right)
+     stack.push(node.left)
+  }
+}
+```
 
 中序遍历思路：<br>
+①使用递归实现，伪代码：
+```
+inOrderTraversal(Node root){
+  if(root==null) return;
+  preOrderTraverse(root.left);
+  print(root.value);
+  preOrderTraverse(root.right);
+}
+```
+②使用循环实现：<br>
+```
+inOrderTraversal(Node root){
+}
+```
 
 后序遍历思路：<br>
 
