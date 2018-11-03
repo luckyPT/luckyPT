@@ -43,6 +43,46 @@ function2(array,start,end){
 
 ## 树
 树是具有n个结点的有限集合，并且结点之间存在一定的层次关系与父子关系。
+```JAVA
+public class TreeTranseval {
+    public static void main(String[] args) {
+        Node root = new Node(new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9}, 0);
+        System.out.println(root);
+    }
+
+    static class Node {
+        int value;
+        Node left;
+        Node right;
+
+        public Node(int value) {
+            this.value = value;
+        }
+
+        public Node(int[] values, int index) {
+            if (index >= values.length) throw new RuntimeException("参数异常！");
+            this.value = values[index];
+            int leftIndex = 2 * index + 1;
+            int rightIndex = 2 * index + 2;
+            if (leftIndex < values.length) {
+                this.left = new Node(values, leftIndex);
+            }
+            if (rightIndex < values.length) {
+                this.right = new Node(values, rightIndex);
+            }
+        }
+
+        @Override
+        public String toString() {
+            return "{" +
+                    "\"value\":" + value +
+                    ", \"left\":" + left +
+                    ", \"right\":" + right +
+                    '}';
+        }
+    }
+}
+```
 ### 相关概念
 结点：包含一个数据元素以及其子结点的引用的一个数据对象。<br>
 结点的度：某个节点拥有子节点的数目<br>
@@ -157,6 +197,24 @@ postOrderTraversal(Node root){
 }
 ```
 广度优先遍历：<br>
+```
+     static void breadthTraserval(Node root) {
+        if (root == null) throw new RuntimeException("root == null");
+        Node tmpNode = root;
+        Queue<Node> nodeQueue = new LinkedList<>();
+        nodeQueue.add(tmpNode);
+        while (!nodeQueue.isEmpty()) {
+            tmpNode = nodeQueue.poll();
+            visit(tmpNode);
+            if (tmpNode.left != null) {
+                nodeQueue.add(tmpNode.left);
+            }
+            if (tmpNode.right != null) {
+                nodeQueue.add(tmpNode.right);
+            }
+        }
+    }
+```
 
 #### 堆 & 堆排序
 
