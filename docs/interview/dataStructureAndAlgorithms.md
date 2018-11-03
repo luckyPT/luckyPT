@@ -142,5 +142,7 @@ inOrderTraversal(Node root){
 
 #### 红黑树
 
+#### 哈弗曼树
+
 ### 字典树
 
