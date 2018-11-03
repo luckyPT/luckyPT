@@ -74,20 +74,20 @@ function2(array,start,end){
 ```
 preOrderTraversal(Node root){
   if(root==null) return;
-  print(root.value);
+  visit(root.value);
   preOrderTraverse(root.left);
   preOrderTraverse(root.right);
 }
 ```
 ②使用循环实现：<br>
 ```
-Stack<Node> stack=new Stack<>();
 preOrderTraversal(Node root){
   if(root==null) return;
+  Stack<Node> stack=new Stack<>();
   stack.push(root);
   while(!stack.isEmpty()){
      Node node = stack.pop()
-     System.out.println(node)
+     visit(node)
      stack.push(node.right)
      stack.push(node.left)
   }
@@ -100,13 +100,35 @@ preOrderTraversal(Node root){
 inOrderTraversal(Node root){
   if(root==null) return;
   preOrderTraverse(root.left);
-  print(root.value);
+  visit(root.value);
   preOrderTraverse(root.right);
 }
 ```
 ②使用循环实现：<br>
 ```
 inOrderTraversal(Node root){
+  if(root==null) return;
+  Stack<Node> stack=new Stack<>();
+  stack.push(root)
+  Node tmpNode = root;
+  while(tmpNode!=null || !stack.isEmpty()){//切记是“或”的关系
+    //先将左子树全部入栈
+    while(tmpNode!=null && tmpNode.left!=null){
+      stack.push(tmpNode.left)
+      tmpNode = tmpNode.left;
+    }
+    //弹出一个元素，并入栈其右子树（如果不为null），然后将这个元素的右子树作为临时根元素，继续循环
+    if(!stack.isEmpty()){
+      tmpNode = stack.pop();
+      visit(tmpNode)
+      if(tmpNode.right!=null){
+        tmpNode = tmpNode.right;
+        if(tmpNode!=null){
+          stack.push(tmpNode.right)
+        }
+      }
+    }
+  }
 }
 ```
 
