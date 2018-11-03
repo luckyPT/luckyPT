@@ -109,30 +109,37 @@ inOrderTraversal(Node root){
 inOrderTraversal(Node root){
   if(root==null) return;
   Stack<Node> stack=new Stack<>();
-  stack.push(root)
   Node tmpNode = root;
   while(tmpNode!=null || !stack.isEmpty()){//切记是“或”的关系
-    //先将左子树全部入栈
-    while(tmpNode!=null && tmpNode.left!=null){
-      stack.push(tmpNode.left)
+    if(tmpNode!=null){//左子树入栈
+      stack.push(tmpNode)
       tmpNode = tmpNode.left;
-    }
-    //弹出一个元素，并入栈其右子树（如果不为null），然后将这个元素的右子树作为临时根元素，继续循环
-    if(!stack.isEmpty()){
-      tmpNode = stack.pop();
+    }else{//弹出一个元素，并将其右子树视为一棵树的根节点
+      tmpNode = stack.pop()
       visit(tmpNode)
-      if(tmpNode.right!=null){
-        tmpNode = tmpNode.right;
-        if(tmpNode!=null){
-          stack.push(tmpNode.right)
-        }
-      }
+      tmpNode = tmpNode.right
     }
   }
 }
 ```
 
 后序遍历思路：<br>
+①使用递归实现，伪代码：
+```
+postOrderTraversal(Node root){
+  if(root==null) return;
+  preOrderTraverse(root.left);
+  preOrderTraverse(root.right);
+  visit(root.value);
+}
+```
+②使用循环实现：<br>
+```
+postOrderTraversal(Node root){
+  if(root==null) return;
+  
+}
+```
 
 #### 堆 & 堆排序
 
