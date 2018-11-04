@@ -65,7 +65,7 @@ public class TreeTranseval {
 
     static int getMinDepth(Node node) {
         if (node == null) {
-            return 0;
+            return Integer.MAX_VALUE;
         }
         if (node.left == null && node.right == null) {
             return 1;
@@ -83,7 +83,7 @@ public class TreeTranseval {
         int leftCount = nodeCount(node.left);
         int rightCount = nodeCount(node.right);
         return leftCount + rightCount + 1;
-    }
+    }    
 
     static class Node {
         int value;
