@@ -252,6 +252,37 @@ heapSort(array){
 ```
 
 #### 二叉查找树 & 树表查找算法
+二叉查找树：某结点如果左子树不为空，则左子树上所有结点的值都小于该结点；如果右子树不为空，则右子树上所有结点的值都大于该结点；并且左右子树都满足二叉查找树的条件。<br>
+构建二叉查找树伪代码：
+```
+binarySearchTree(array){
+  Node root = null;
+  for(i=0;i<array.length;i++){
+    root = insertData(root,array[i])
+  }
+}
+//node是一个二叉查找树，将data加入到树中
+Node inserData(node,data){
+  if(node==null) return new Node(data);
+  if(node.data > data){
+    node.left = insertData(node.left,data);
+  }else{
+    node.right = insertData(node.right,data);
+  }
+}
+```
+基于二叉查找树进行查找算法的伪代码：
+```
+Node binaryTreeSearch(node,data){
+  if(node==null) return null;
+  if(node.data == data) return node;
+  if(node.data>data){
+    binaryTreeSearch(node.left,data)
+  }else{
+    binaryTreeSearch(node.right,data)
+  }
+}
+```
 
 #### 平衡二叉树
 
