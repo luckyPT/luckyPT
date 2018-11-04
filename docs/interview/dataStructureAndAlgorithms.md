@@ -217,6 +217,39 @@ postOrderTraversal(Node root){
 ```
 
 #### 堆 & 堆排序
+堆：是一种特殊的完全二叉树，满足任何一个结点不小于（或不大于）其子结点。根结点是整棵树的最大值（或最小值）<br>
+堆排序的思路：对于有n个元素的数组，针对这n个元素建堆，然后将第0个（根结点）元素和最后一个互换位置。然后针对前n-1个元素建堆，再将第0个和倒数第二个换位置，依次递归。伪代码：
+```
+//只关注前len个元素，假设第i个结点的左右子树都已经是堆，基于这个假设调整，使得以第i个结点为根的树成为堆
+adjustHeap(array,i,len){
+    maxChild = 2i+1
+    while(maxChild<=len){
+      //找到最大子节点
+      if(maxChild+1 <= len && array[maxChild+1]>array[macChild]){
+        maxChild++
+      }
+      //如果子节点大于根结点，调整
+      if(array[i] < array[maxChild]){
+        swap(array,i,maxChild)
+        i = maxChild;
+        maxChild = 2i+1;
+      }
+    }
+}
+//借助adjustHeap函数，自下而上，自右向左构建堆
+makeHeap(array,len){
+  for(i=len/2-1;i>=0;i--){
+    adjustHeap(array,i,len)
+  }
+}
+//堆排序
+heapSort(array){
+  for(i=array.length - 1;i>=0;i--){
+    makeHeap(array,i);
+    swap(array,0,i)
+  }
+}
+```
 
 #### 二叉查找树 & 树表查找算法
 
