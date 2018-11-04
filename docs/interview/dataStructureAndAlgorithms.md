@@ -50,6 +50,41 @@ public class TreeTranseval {
         System.out.println(root);
     }
 
+    static int getMaxDepth(Node node) {
+        if (node == null) {
+            return 0;
+        }
+        if (node.left == null && node.right == null) {
+            return 1;
+        } else {
+            int left = getMaxDepth(node.left);
+            int right = getMaxDepth(node.right);
+            return Math.max(left, right) + 1;
+        }
+    }
+
+    static int getMinDepth(Node node) {
+        if (node == null) {
+            return 0;
+        }
+        if (node.left == null && node.right == null) {
+            return 1;
+        } else {
+            int left = getMinDepth(node.left);
+            int right = getMinDepth(node.right);
+            return Math.min(left, right) + 1;
+        }
+    }
+
+    static int nodeCount(Node node) {
+        if (node == null) {
+            return 0;
+        }
+        int leftCount = nodeCount(node.left);
+        int rightCount = nodeCount(node.right);
+        return leftCount + rightCount + 1;
+    }
+
     static class Node {
         int value;
         Node left;
@@ -286,9 +321,14 @@ Node binaryTreeSearch(node,data){
 ```
 
 #### 平衡二叉树
-平衡二叉树：一个空树或者是左右两个子树的高度差不超过1，并且左右两个子树也是平衡二叉树。解决某些情况下二叉查找树退化成链表的问题。<br>
-平衡因子：左子树与右子树的高度之差，值为-1，0，1三种可能。<br>
-构建平衡二叉树
+平衡二叉树：一个空树或者是左右两个子树的高度差不超过1，并且左右两个子树也是平衡二叉树。解决某些情况下二叉查找树退化成链表的问题。所以一般情况下，平衡二叉树是二叉搜索树的一种<br>
+平衡因子：左子树与右子树的高度之差，值为-1，0，1三种可能。结点数据结构中一般会保存该结点的平衡因子<br>
+单旋&双旋：由不平衡状态调整到平衡状态需要选择1次或者2次<br>
+右旋&左旋：不平衡结点向右旋转，或者向左旋转<br>
+判断是否是平衡二叉树：
+```
+```
+构建平衡二叉树的过程类似于构建二叉查找树，只不过每次插入结点之后，需要判断是不是二叉平衡树，如果不是，则需要通过旋转调整；
 ```
 ```
 
