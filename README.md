@@ -32,6 +32,8 @@
 
 [12.RNN&LSTM](/docs/ml/12.md){:target="_blank"}
 
+[12_1.Seq to Seq](/docs/ml/12.md){:target="_blank"}
+
 [13.语言模型](/docs/ml/13.md){:target="_blank"}
 
 [13_1.隐马尔可夫模型](/docs/ml/13_1.md){:target="_blank"}
