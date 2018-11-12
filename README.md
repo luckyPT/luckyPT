@@ -56,6 +56,7 @@
 
 [5.序列数据预测下一个数据点](/docs/python/5.md){:target="_blank"}
 
+[6.sklearn](/docs/python/6.md){:target="_blank"}
 <!-- [6.面试精选](/docs/python/6.md){:target="_blank"} -->
 
 ### Java编程
