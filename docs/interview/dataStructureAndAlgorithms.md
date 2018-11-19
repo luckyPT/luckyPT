@@ -163,7 +163,7 @@ preOrderTraversal(Node root){
   while(!stack.isEmpty()){
      Node node = stack.pop()
      visit(node)
-     stack.push(node.right)
+     stack.push(node.right)//先压入右子树，再压入左子树
      stack.push(node.left)
   }
 }
