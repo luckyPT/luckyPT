@@ -26,7 +26,7 @@
 
 [9.深度学习DNN](/docs/ml/9.md){:target="_blank"}
 
-[10.激活函数&优化器](/docs/ml/10.md){:target="_blank"}
+[10.损失函数&激活函数&优化器](/docs/ml/10.md){:target="_blank"}
 
 [11.CNN](/docs/ml/11.md){:target="_blank"}
 
