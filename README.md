@@ -42,6 +42,8 @@
 
 [15.机器学习项目如何开展](/docs/ml/15.md){:target="_blank"}
 
+[16.降维技术](/docs/ml/16.md){:target="_blank"}
+
 <!-- [16.面试精选](/docs/ml/16.md){:target="_blank"} -->
 
 ### python
