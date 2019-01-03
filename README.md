@@ -119,7 +119,7 @@
 
 [3.hbase](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
 
-[4.ElasticSearch](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
+[4.ElasticSearch](/docs/bigData/4.md){:target="_blank"}
 
 <!-- [5.面试精选](https://guides.github.com/features/mastering-markdown/){:target="_blank"} -->
 
