@@ -83,6 +83,8 @@
 
 [6.常用的监控命令](/docs/java/6.md){:target="_blank"}
 
+[7.代码优化及最佳实践](/docs/java/7.md){:target="_blank"}
+
 <!-- [7.面试精选](/docs/java/7.md){:target="_blank"} -->
 
 ### 服务端组件
