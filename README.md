@@ -46,6 +46,8 @@
 
 [16.降维技术](/docs/ml/16.md){:target="_blank"}
 
+[17.其他数学基础](/docs/ml/17.md){:target="_blank"}
+
 <!-- [16.面试精选](/docs/ml/16.md){:target="_blank"} -->
 
 ### python
