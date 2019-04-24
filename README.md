@@ -44,7 +44,9 @@
 
 [15.机器学习项目如何开展](/docs/ml/15.md){:target="_blank"}
 
-[16.降维技术](/docs/ml/16.md){:target="_blank"}
+[16.如何优化现有机器学习系统](/docs/ml/16.md){:target="_blank"}
+
+[16_1.降维技术](/docs/ml/16_1.md){:target="_blank"}
 
 [17.其他数学基础](/docs/ml/17.md){:target="_blank"}
 
