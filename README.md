@@ -129,6 +129,18 @@
 
 <!-- [5.面试精选](https://guides.github.com/features/mastering-markdown/){:target="_blank"} -->
 
+### 分布式系列
+
+[1.概述](/docs/distributedSys/1.md){:target="_blank"}
+
+[2.CAP理论](/docs/distributedSys/2.md){:target="_blank"}
+
+[3.分布式存储](/docs/distributedSys/3.md){:target="_blank"}
+
+[4.分布式Session](/docs/distributedSys/4.md){:target="_blank"}
+
+[5.分布式选主机制](/docs/distributedSys/5.md){:target="_blank"}
+
 ### others
 
 [1.事故记录](/docs/others/1.md){:target="_blank"}
