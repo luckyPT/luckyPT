@@ -145,6 +145,8 @@
 
 [6.分布式锁](/docs/distributedSys/6.md){:target="_blank"}
 
+[6.分布式id](/docs/distributedSys/7.md){:target="_blank"}
+
 ### others
 
 [1.事故记录](/docs/others/1.md){:target="_blank"}
