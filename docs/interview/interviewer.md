@@ -36,3 +36,5 @@ Situation：背景、Tack：任务、Action：做了什么、Result：解跟
 
 
 ### 社招
+
+经验&能力 与当前项目的匹配度
