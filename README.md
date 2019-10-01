@@ -54,6 +54,14 @@ http://letsgogo.top/
 
 [18.文本处理中常用特征](/docs/ml/18.md){:target="_blank"}
 
+[19.transformer模型](/docs/ml/19.md){:target="_blank"}
+
+[20.bert模型的训练与应用](/docs/ml/20.md){:target="_blank"}
+
+[21.CNN分词模型](/docs/ml/21.md){:target="_blank"}
+
+[22.常见的实体识别模型](/docs/ml/22.md){:target="_blank"}
+
 <!-- [16.面试精选](/docs/ml/16.md){:target="_blank"} -->
 
 ### python
