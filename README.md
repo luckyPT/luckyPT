@@ -40,7 +40,7 @@ http://letsgogo.top/
 
 [13_1.隐马尔可夫模型](/docs/ml/13_1.md){:target="_blank"}
 
-[13_2.条件随机场](/docs/ml/13_1.md){:target="_blank"}
+[13_2.条件随机场](/docs/ml/13_2.md){:target="_blank"}
 
 [14.fastText](/docs/ml/14.md){:target="_blank"}
 
