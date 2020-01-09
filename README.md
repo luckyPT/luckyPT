@@ -164,3 +164,5 @@ http://letsgogo.top/
 [2.关于工作的优秀实践](/docs/others/2.md){:target="_blank"}
 
 [3.成长反思](/docs/others/3.md){:target="_blank"}
+
+[4.如何做好mentor](/docs/others/4.md){:target="_blank"}
