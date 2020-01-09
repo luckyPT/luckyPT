@@ -165,4 +165,6 @@ http://letsgogo.top/
 
 [3.成长反思](/docs/others/3.md){:target="_blank"}
 
-[4.如何做好mentor](/docs/others/4.md){:target="_blank"}
+[4.数据需求特点及最佳实践](/docs/others/4.md){:target="_blank"}
+
+[5.如何做好mentor](/docs/others/5.md){:target="_blank"}
