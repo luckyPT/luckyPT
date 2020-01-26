@@ -62,6 +62,8 @@ http://letsgogo.top/
 
 [22.常见的实体识别模型](/docs/ml/22.md){:target="_blank"}
 
+[23.推荐系统知识梳理](/docs/ml/22.md){:target="_blank"}
+
 <!-- [16.面试精选](/docs/ml/16.md){:target="_blank"} -->
 
 ### python
