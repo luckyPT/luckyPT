@@ -64,6 +64,8 @@ http://letsgogo.top/
 
 [23.推荐系统知识梳理](/docs/ml/23.md){:target="_blank"}
 
+[24.page rank & text rank](/docs/ml/24.md){:target="_blank"}
+
 <!-- [16.面试精选](/docs/ml/16.md){:target="_blank"} -->
 
 ### python
