@@ -66,6 +66,8 @@ http://letsgogo.top/
 
 [24.page rank & text rank](/docs/ml/24.md){:target="_blank"}
 
+[25.奇异值分解](/docs/ml/25.md){:target="_blank"}
+
 <!-- [16.面试精选](/docs/ml/16.md){:target="_blank"} -->
 
 ### python
