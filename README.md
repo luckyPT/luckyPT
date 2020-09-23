@@ -68,7 +68,7 @@ http://letsgogo.top/
 
 [25.奇异值分解](/docs/ml/25.md){:target="_blank"}
 
-[25.信号处理](/docs/ml/26.md){:target="_blank"}
+[26.信号处理](/docs/ml/26.md){:target="_blank"}
 
 <!-- [16.面试精选](/docs/ml/16.md){:target="_blank"} -->
 
