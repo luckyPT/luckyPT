@@ -70,6 +70,8 @@ http://letsgogo.top/
 
 [26.信号处理](/docs/ml/26.md){:target="_blank"}
 
+[27.LightGBM介绍](/docs/ml/27.md){:target="_blank"}
+
 <!-- [16.面试精选](/docs/ml/16.md){:target="_blank"} -->
 
 ### python
