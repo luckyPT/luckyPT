@@ -178,3 +178,9 @@ http://letsgogo.top/
 [4.数据需求特点及最佳实践](/docs/others/4.md){:target="_blank"}
 
 [5.如何做好mentor](/docs/others/5.md){:target="_blank"}
+
+[6.面试心得](/docs/others/6.md){:target="_blank"}
+
+[7.如何高效的开展会议](/docs/others/7.md){:target="_blank"}
+
+[8.关于管理的心得](/docs/others/7.md){:target="_blank"}
