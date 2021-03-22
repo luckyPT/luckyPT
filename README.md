@@ -72,6 +72,8 @@ http://letsgogo.top/
 
 [27.LightGBM介绍](/docs/ml/27.md){:target="_blank"}
 
+[28.FM、FFM、DeepFM、Din算法](/docs/ml/28.md){:target="_blank"}
+
 <!-- [16.面试精选](/docs/ml/16.md){:target="_blank"} -->
 
 ### python
