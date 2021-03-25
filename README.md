@@ -183,6 +183,6 @@ http://letsgogo.top/
 
 [6.面试心得](/docs/others/6.md){:target="_blank"}
 
-[7.如何高效的开展会议](/docs/others/7.md){:target="_blank"}
+[7.关于管理的心得](/docs/others/7.md){:target="_blank"}
 
-[8.关于管理的心得](/docs/others/7.md){:target="_blank"}
+[8.如何高效的开展会议](/docs/others/8.md){:target="_blank"}
