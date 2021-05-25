@@ -74,6 +74,8 @@ http://letsgogo.top/
 
 [28.FM、FFM、DeepFM、Din算法](/docs/ml/28.md){:target="_blank"}
 
+[29.因果推断](/docs/ml/29.md){:target="_blank"}
+
 <!-- [16.面试精选](/docs/ml/16.md){:target="_blank"} -->
 
 ### python
