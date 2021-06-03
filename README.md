@@ -64,6 +64,8 @@ http://letsgogo.top/
 
 [23.推荐系统知识梳理](/docs/ml/23.md){:target="_blank"}
 
+[23_1.GraphEmbedding](/docs/ml/23_1.md){:target="_blank"}
+
 [24.page rank & text rank](/docs/ml/24.md){:target="_blank"}
 
 [25.奇异值分解](/docs/ml/25.md){:target="_blank"}
