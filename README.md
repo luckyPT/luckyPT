@@ -156,6 +156,9 @@ http://letsgogo.top/
 [4.ElasticSearch](/docs/bigData/4.md){:target="_blank"}
 
 [5.Neo4j](/docs/bigData/5.md){:target="_blank"}
+
+[6.大数据调优心得](/docs/bigData/6.md){:target="_blank"}、
+
 <!-- [5.面试精选](https://guides.github.com/features/mastering-markdown/){:target="_blank"} -->
 
 ### 分布式系列
