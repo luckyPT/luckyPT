@@ -80,6 +80,8 @@ http://letsgogo.top/
 
 <!-- [16.面试精选](/docs/ml/16.md){:target="_blank"} -->
 
+[30.工程化心得](/docs/ml/30.md){:target="_blank"}
+
 ### python
 
 [1.基础知识](/docs/python/1.md){:target="_blank"}
