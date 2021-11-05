@@ -196,3 +196,5 @@ http://letsgogo.top/
 [7.关于管理的心得](/docs/others/7.md){:target="_blank"}
 
 [8.如何高效的开展会议](/docs/others/8.md){:target="_blank"}
+
+[9.技术方案选型对比维度](/docs/others/9.md){:target="_blank"}
