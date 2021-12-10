@@ -202,3 +202,5 @@ http://letsgogo.top/
 [10.职场晋升之道](/docs/others/10.md){:target="_blank"}
 
 [11.Presentation - PPT制作](/docs/others/11.md){:target="_blank"}
+
+[12.DISC行为风格分析](/docs/others/12.md){:target="_blank"}
