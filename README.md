@@ -82,6 +82,14 @@ http://letsgogo.top/
 
 [30.工程化心得](/docs/ml/30.md){:target="_blank"}
 
+[31.小样本学习](/docs/ml/31.md){:target="_blank"}
+
+[32.迁移学习](/docs/ml/32.md){:target="_blank"}
+
+[33.强化学习](/docs/ml/33.md){:target="_blank"}
+
+[34.图神经网络](/docs/ml/33.md){:target="_blank"}
+
 ### python
 
 [1.基础知识](/docs/python/1.md){:target="_blank"}
