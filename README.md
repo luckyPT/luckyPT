@@ -88,7 +88,7 @@ http://letsgogo.top/
 
 [33.强化学习](/docs/ml/33.md){:target="_blank"}
 
-[34.图神经网络](/docs/ml/33.md){:target="_blank"}
+[34.图神经网络](/docs/ml/34.md){:target="_blank"}
 
 ### python
 
