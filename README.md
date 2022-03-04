@@ -90,6 +90,8 @@ http://letsgogo.top/
 
 [34.图神经网络](/docs/ml/34.md){:target="_blank"}
 
+[35.地址检测综述](/docs/ml/35.md){:target="_blank"}
+
 ### python
 
 [1.基础知识](/docs/python/1.md){:target="_blank"}
