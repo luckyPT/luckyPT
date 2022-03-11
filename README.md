@@ -92,6 +92,8 @@ http://letsgogo.top/
 
 [35.地址检测综述](/docs/ml/35.md){:target="_blank"}
 
+[36.行为检测综述](/docs/ml/36.md){:target="_blank"}
+
 ### python
 
 [1.基础知识](/docs/python/1.md){:target="_blank"}
