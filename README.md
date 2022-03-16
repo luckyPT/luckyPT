@@ -109,6 +109,8 @@ http://letsgogo.top/
 [6.sklearn](/docs/python/6.md){:target="_blank"}
 <!-- [6.面试精选](/docs/python/6.md){:target="_blank"} -->
 
+[7.pytorch](/docs/python/7.md){:target="_blank"}
+
 ### Java编程
 
 [1.数据类型](/docs/java/1.md){:target="_blank"}
