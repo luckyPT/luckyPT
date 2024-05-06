@@ -1,225 +1,224 @@
-## 沙中世界
-http://letsgogo.top/
+# Jekflix Template
 
-### 端到端自动驾驶
-[1.综述](/docs/auto_drive/1.md){:target="_blank"}
+![Jekflix Template Cover Image](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1505354182/jekflix-logo_mfngps.png)
 
-### 大模型
-[1.综述](/docs/large_model/1.md){:target="_blank"}
+See the [demo here](https://jekflix.rossener.com/).
 
-### 机器学习
+## What is it?
 
-[1.个人对机器学习的理解](/docs/ml/1.md){:target="_blank"}
-
-[2.入门算法之线性回归](/docs/ml/2.md){:target="_blank"}
-
-[3.入门算法之逻辑回归](/docs/ml/3.md){:target="_blank"}
-
-[4.常见的概率分布](/docs/ml/4.md){:target="_blank"}
-
-[5.过拟合与欠拟合](/docs/ml/5.md){:target="_blank"}
-
-[5_1.贝叶斯相关](/docs/ml/5_1.md){:target="_blank"}
-
-[5_2.最大熵模型](/docs/ml/5_2.md){:target="_blank"}
-
-[6.决策树](/docs/ml/6.md){:target="_blank"}
-
-[7.集成学习算法](/docs/ml/7.md){:target="_blank"}
-
-[8.随机森林&GBDT&xgboost](/docs/ml/8.md){:target="_blank"}
-
-[8_1.支持向量机SVM](/docs/ml/8_1.md){:target="_blank"}
-
-[9.深度学习DNN](/docs/ml/9.md){:target="_blank"}
-
-[10.损失函数&激活函数&优化器](/docs/ml/10.md){:target="_blank"}
-
-[11.CNN](/docs/ml/11.md){:target="_blank"}
-
-[12.RNN&LSTM](/docs/ml/12.md){:target="_blank"}
-
-[12_1.Seq to Seq](/docs/ml/12_1.md){:target="_blank"}
-
-[13.语言模型](/docs/ml/13.md){:target="_blank"}
-
-[13_1.隐马尔可夫模型](/docs/ml/13_1.md){:target="_blank"}
-
-[13_2.条件随机场](/docs/ml/13_2.md){:target="_blank"}
-
-[14.fastText](/docs/ml/14.md){:target="_blank"}
-
-[15.机器学习项目如何开展](/docs/ml/15.md){:target="_blank"}
-
-[16.如何优化现有机器学习系统](/docs/ml/16.md){:target="_blank"}
-
-[16_1.降维技术与特征选择](/docs/ml/16_1.md){:target="_blank"}
-
-[17.其他数学基础](/docs/ml/17.md){:target="_blank"}
-
-[18.文本处理中常用特征](/docs/ml/18.md){:target="_blank"}
-
-[19.transformer模型](/docs/ml/19.md){:target="_blank"}
-
-[20.bert模型的训练与应用](/docs/ml/20.md){:target="_blank"}
-
-[21.CNN分词模型](/docs/ml/21.md){:target="_blank"}
-
-[22.常见的实体识别模型](/docs/ml/22.md){:target="_blank"}
-
-[23.推荐系统知识梳理](/docs/ml/23.md){:target="_blank"}
-
-[23_1.GraphEmbedding](/docs/ml/23_1.md){:target="_blank"}
-
-[24.page rank & text rank](/docs/ml/24.md){:target="_blank"}
-
-[25.奇异值分解](/docs/ml/25.md){:target="_blank"}
-
-[26.信号处理](/docs/ml/26.md){:target="_blank"}
-
-[27.LightGBM介绍](/docs/ml/27.md){:target="_blank"}
-
-[28.FM、FFM、DeepFM、Din算法](/docs/ml/28.md){:target="_blank"}
-
-[29.因果推断](/docs/ml/29.md){:target="_blank"}
-
-<!-- [16.面试精选](/docs/ml/16.md){:target="_blank"} -->
-
-[30.工程化心得](/docs/ml/30.md){:target="_blank"}
-
-[31.小样本学习](/docs/ml/31.md){:target="_blank"}
-
-[32.迁移学习](/docs/ml/32.md){:target="_blank"}
-
-[33.强化学习](/docs/ml/33.md){:target="_blank"}
-
-[34.图神经网络](/docs/ml/34.md){:target="_blank"}
-
-[35.地址检测综述](/docs/ml/35.md){:target="_blank"}
-
-[36.行为检测综述](/docs/ml/36.md){:target="_blank"}
-
-### python
-
-[1.基础知识](/docs/python/1.md){:target="_blank"}
-
-[2.numpy](/docs/python/2.md){:target="_blank"}
-
-[3.pandas](/docs/python/3.md){:target="_blank"}
-
-[4.TensorFlow](/docs/python/4.md){:target="_blank"}
-
-[5.序列数据预测下一个数据点](/docs/python/5.md){:target="_blank"}
-
-[6.sklearn](/docs/python/6.md){:target="_blank"}
-<!-- [6.面试精选](/docs/python/6.md){:target="_blank"} -->
-
-[7.pytorch](/docs/python/7.md){:target="_blank"}
-
-### Java编程
-
-[1.数据类型](/docs/java/1.md){:target="_blank"}
-
-[2.集合类](/docs/java/2.md){:target="_blank"}
-
-[3.输入输出流](/docs/java/3.md){:target="_blank"}
-
-[3_1.NIO](/docs/java/3_1.md){:target="_blank"}
-
-[4.多线程](/docs/java/4.md){:target="_blank"}
-
-[4_1.异常体系及最佳实践](/docs/java/4_1.md){:target="_blank"}
-
-[5.内存结构与垃圾回收](/docs/java/5.md){:target="_blank"}
-
-[5_1.其他特性](/docs/java/5_1.md){:target="_blank"}
-
-[6.常用的监控命令](/docs/java/6.md){:target="_blank"}
-
-[7.代码优化及最佳实践](/docs/java/7.md){:target="_blank"}
-
-<!-- [7.面试精选](/docs/java/7.md){:target="_blank"} -->
-
-### 服务端组件
-
-[1.MySql](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
-
-[2.Redis](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
-
-[3.kafka](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
-
-[4.zookeeper](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
-
-[5.docker](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
-
-<!-- [6.面试精选](https://guides.github.com/features/mastering-markdown/){:target="_blank"} -->
-
-#### 框架
-
-[5.thrift](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
-
-[6.spring](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
-
-[7.mybatis](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
-
-[8.druid](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
-
-<!-- [9.面试精选](https://guides.github.com/features/mastering-markdown/){:target="_blank"} -->
-
-### 大数据组件
-
-[1.Hadoop](/docs/bigData/1.md){:target="_blank"}
-
-[2.spark](/docs/bigData/2.md){:target="_blank"}
-
-[3.hbase](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
-
-[4.ElasticSearch](/docs/bigData/4.md){:target="_blank"}
-
-[5.Neo4j](/docs/bigData/5.md){:target="_blank"}
-
-[6.大数据调优心得](/docs/bigData/6.md){:target="_blank"}、
-
-<!-- [5.面试精选](https://guides.github.com/features/mastering-markdown/){:target="_blank"} -->
-
-### 分布式系列
-
-[1.概述](/docs/distributedSys/1.md){:target="_blank"}
-
-[2.CAP理论](/docs/distributedSys/2.md){:target="_blank"}
-
-[3.分布式存储](/docs/distributedSys/3.md){:target="_blank"}
-
-[4.分布式Session](/docs/distributedSys/4.md){:target="_blank"}
-
-[5.分布式选主机制](/docs/distributedSys/5.md){:target="_blank"}
-
-[6.分布式锁](/docs/distributedSys/6.md){:target="_blank"}
-
-[6.分布式id](/docs/distributedSys/7.md){:target="_blank"}
-
-### others
-
-[1.事故记录](/docs/others/1.md){:target="_blank"}
-
-[2.关于工作的优秀实践](/docs/others/2.md){:target="_blank"}
-
-[3.成长反思](/docs/others/3.md){:target="_blank"}
-
-[4.数据需求特点及最佳实践](/docs/others/4.md){:target="_blank"}
-
-[5.如何做好mentor](/docs/others/5.md){:target="_blank"}
-
-[6.面试心得](/docs/others/6.md){:target="_blank"}
-
-[7.关于管理的心得](/docs/others/7.md){:target="_blank"}
-
-[8.如何高效的开展会议](/docs/others/8.md){:target="_blank"}
-
-[9.技术方案选型对比维度](/docs/others/9.md){:target="_blank"}
-
-[10.职场晋升之道](/docs/others/10.md){:target="_blank"}
-
-[11.Presentation - PPT制作](/docs/others/11.md){:target="_blank"}
-
-[12.DISC行为风格分析](/docs/others/12.md){:target="_blank"}
+A theme for Jekyll inspired by Netflix panel for who loves movies and series and would like to have a blog with this cool appearance.
+
+![Jekflix Screenshot Image](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566390829/jekflix-screenshot-2_zfiog2.jpg)
+
+## Features
+
+- [Live Search](docs/features.md#live-search)
+- [Estimated Reading Time](docs/features.md#estimated-reading-time)
+- [Reading Progress Bar](docs/features.md#reading-progress-bar) *(optional)*
+- ["New Post" tag](docs/features.md#new-post-tag)
+- [Load images on demand](docs/features.md#load-images-on-demand)
+- [Push Menu](docs/features.md#push-menu)
+- [SVG icons](docs/features.md#svg-icons)
+- [Shell script to create posts](docs/features.md#shell-script-to-create-posts)
+- [Tags page](docs/features.md#tags-page)
+- [About page](docs/features.md#about-page)
+- [Contact page](docs/features.md#contact-page)
+- [404 error page](docs/features.md#404-error-page)
+- [Feed RSS](docs/features.md#feed-rss)
+- [Disqus](docs/features.md#disqus) *(optional)*
+- [Featured post](docs/features.md#featured-post) *(optional)*
+- [Home page pagination](docs/features.md#home-page-pagination) *(optional)*
+- [Posts sidebar](docs/features.md#posts-sidebar) *(optional)*
+- [Paginated posts](docs/features.md#paginated-posts) *(optional)*
+- ["Before you go" modal](docs/features.md#before-you-go-modal) *(optional)*
+- [Post recommendation](docs/features.md#post-recommendation)
+- [Netlify CMS ready](docs/features.md#netlify-cms-ready)
+- [Translations](docs/setup.md#translations) **new!**
+- [Math Expressions](docs/features.md#math-expressions) *(optional)* **new!**
+
+## SEO
+
+- Google Analytics
+- Meta tags
+- JSON-LD
+- Sitemap.xml
+- Social Media ready
+
+## Quick Install
+
+In the case you're installing to existing Jekyll project, add this line to your project's `Gemfile`:
+
+```
+gem "jekflix"
+```
+
+Add this line to your project's `_config.yml`:
+
+```
+theme: jekflix
+```
+
+And then run:
+
+```
+$ bundle
+```
+
+Or install it yourself as:
+
+```
+$ gem install jekflix
+```
+
+### Theme Colors
+
+Create the file `/assets/css/styles.scss` and add:
+
+```
+---
+---
+
+$themeColor: #ff0a16;
+$primaryDark: #141414;
+$accentDark: #ffffff;
+$lightGray: #f2f2f2;
+$texts: #333333;
+
+@import "jekflix";
+```
+
+Modify the variables above to change your theme colors.
+
+### Site configuration
+
+Below are some properties you can change in your project `_config.yml`, check the [documentation](docs/settings.md#settings) for more details.
+
+```
+# Site Settings
+name: Jekflix
+title: Jekflix | A blog theme for Jekyll
+description: Jekflix is a template for Jekyll inspired by Netflix and made by Thiago Rossener.
+tags:
+  - blog
+  - template
+  - jekyll
+  - theme
+  - netlify
+email: youremail@xyz.com
+disqus_username: disqus_username
+show_hero: true
+menu:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+  - title: Contact
+    url: /contact
+  - title: Feed
+    url: /feed.xml
+
+# Social Media Settings
+# Remove the item if you don't need it
+github_username: github_username
+facebook_username: facebook_username
+twitter_username: twitter_username
+instagram_username: instagram_username
+linkedin_username: linkedin_username
+medium_username: medium_username
+
+# Posts Settings
+show_time_bar: true
+show_modal_on_exit: false
+show_modal_on_finish_post: true
+two_columns_layout: true
+
+# Advanced Settings
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+google_analytics: "UA-XXXXXXXX-X"
+language: "en"
+categories_folder: category
+sent_message_url: "/contact/message-sent/"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+collections:
+  authors:
+    output: true
+paginate_path: "/page/:num/"
+show_get_theme_btn: true
+use_logo: false
+
+# Content paginator
+paginate_content:
+  enabled: true
+  debug: false
+  collections:
+    - posts
+  auto: false
+  separator: "--page-break--"
+  permalink: "/:num/"
+  seo_canonical: true
+  properties:
+    part:
+      is_generated: true
+    last:
+      is_generated: true
+    single:
+      is_generated: true
+
+# SASS
+sass:
+  style: compressed
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-paginate-content
+```
+
+## Setup
+
+In the case you're cloning this repo, follow those instructions:
+
+- [Environment](docs/setup.md#environment)
+- [Installing template](docs/setup.md#installing-template)
+- [Running local](docs/setup.md#running-local)
+
+### Customization
+
+See the [settings documentation](docs/settings.md#settings) to customize layout, titles, social media and more.
+
+### Theme
+
+You can easily change the theme colors by changing the file `src/yml/theme.yml`, then running `gulp build` in your terminal.
+
+#### GitHub pages
+
+It's a known issue that you can't run Gulp when deploying the website into GitHub pages. So, you must change the theme colors and run `gulp build` locally, then push the changes into your repo, there is no other way.
+
+To see how your website is going to look like when you deploy it, run `bundle exec jekyll serve` locally and access `http://127.0.0.1:4000/`.
+
+## Posts
+
+Use the [Front Matter properties](docs/post.md#front-matter-properties) to create posts.
+
+> **Note:** In the case you're cloning this repo, you can use the available [script](docs/post.md#creating-a-post) to generate posts automatically.
+
+## Questions?
+
+File a [GitHub issue](https://github.com/thiagorossener/jekflix-template/issues/new) please.
+
+## Author
+
+[Thiago Rossener](https://rossener.com/)
+
+Do you like my work? Buy me a coffee!
+
+<a href="https://www.buymeacoffee.com/thiagorossener" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
+## License
+
+*Jekflix Template* is available under the MIT license. See the [LICENSE](https://github.com/thiagorossener/jekflix-template/blob/master/LICENSE) file for more info.
