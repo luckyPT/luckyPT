@@ -6,7 +6,7 @@ description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei
 image: https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559824021/theme12_e0vxlr.jpg
 optimized_image: https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559824021/theme12_e0vxlr.jpg
 subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-category: 'blog'
+category: interview
 tags:
   - jekyll
   - wordpress
