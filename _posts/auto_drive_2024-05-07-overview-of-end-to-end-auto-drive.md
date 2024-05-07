@@ -1,3 +1,4 @@
+---
 date: 2019-05-16 23:48:05
 layout: post
 title: 端到端自动驾驶综述
@@ -7,3 +8,4 @@ tags:
   - auto drive
   - end to end
 author: 沙中世界
+---
