@@ -11,9 +11,15 @@ permalink: /about/
 
 # About
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+2015 东北大学 · 采矿工程毕业
+
+喜欢编程，不拘泥于技术方向
+
+专业技能
+* 具备千万级日活应用的服务端开发技能&经验
+
+* 具备百TB级别的大数据处理技能&经验
+
+* 具备NLP分类、实体识别等机器学习算法手机端侧落地经验
+
+* 具备城区、去高精地图条件下，点到点自动驾驶系统 - 障碍物意图&行为&轨迹预测经验

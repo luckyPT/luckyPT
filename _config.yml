@@ -1,7 +1,7 @@
 # Site Settings
 name: 沙中世界
-title: 沙中世界
-description: 是IT圈中的一粒沙，也是一个世界
+title: 沙中世界 | 随笔记录
+description: IT圈中的一粒沙，也是一个世界
 tags:
   - blog
   - template
@@ -18,7 +18,7 @@ menu:
     url: /contact
   - title: Feed
     url: /feed.xml
-email: 806801463@qq.com
+email: 806801463@test.com
 # See: https://disqus.com/
 disqus_username: disqus_username
 # Contact Form Setting
@@ -38,7 +38,7 @@ medium_username: medium_username
 
 # Posts Settings
 show_time_bar: true
-show_modal_on_exit: false
+show_modal_on_exit: true
 show_modal_on_finish_post: true
 two_columns_layout: true
 
@@ -60,7 +60,7 @@ collections:
   authors:
     output: true
 paginate_path: "/page/:num/"
-show_get_theme_btn: false
+show_get_theme_btn: true
 use_logo: false
 
 # Content paginator
