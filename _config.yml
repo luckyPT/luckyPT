@@ -20,7 +20,7 @@ menu:
     url: /feed.xml
 email: 806801463@test.com
 # See: https://disqus.com/
-disqus_username: disqus_username
+disqus_username: teng_pan
 # Contact Form Setting
 # See: https://formspree.io/
 formspree_form_id: mzbnoqlo
@@ -40,7 +40,7 @@ medium_username: medium_username
 show_time_bar: true
 show_modal_on_exit: true
 show_modal_on_finish_post: true
-two_columns_layout: true
+two_columns_layout: false
 
 
 # Advanced Settings
@@ -60,7 +60,7 @@ collections:
   authors:
     output: true
 paginate_path: "/page/:num/"
-show_get_theme_btn: true
+show_get_theme_btn: false
 use_logo: false
 
 # Content paginator

@@ -107,7 +107,7 @@ Example:
 
 ```yaml
 # site.yml
-disqus_username: disqus_username
+disqus_username: teng_pan
 ```
 
 #### `show_hero`
