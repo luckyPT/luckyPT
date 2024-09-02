@@ -5,7 +5,7 @@ title: LangChain笔记
 subtitle: 'LangChain笔记'
 description: LangChain
 category: 大模型
-image: https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fad2da2e9-47ff-46df-87f4-59385508c935_1164x1316.png
+image: /post_images/llm/lang-chain.png
 tags:
   - LangChain
   - 大模型
