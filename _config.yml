@@ -10,8 +10,12 @@ tags:
   - netlify
 show_hero: true
 menu:
-  - title: Home
+  - title: 网站首页
     url: /
+  - title: 古法编程时代
+    url: /blog/
+  - title: 硅基学步
+    url: /planning/
   - title: Category
     url: /categories
   - title: About
@@ -46,10 +50,10 @@ two_columns_layout: false
 
 
 # Advanced Settings
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+baseurl: "" # Keep historical article URLs at the domain root.
+url: "https://letsgogo.top"
 google_analytics: "UA-XXXXXXXX-X"
-language: "en"
+language: "zh-CN"
 categories_folder: category
 sent_message_url: "/contact/message-sent/"
 
