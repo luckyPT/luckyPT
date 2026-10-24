@@ -63,124 +63,30 @@ jobs:
           destination: ./_site
       - name: Assemble and verify both entrances
         run: |
-          mkdir -p _site/planning
-          cp -a course/dist/. _site/planning/
-          touch _site/.nojekyll
+          # Jekyll's Docker action creates root-owned output. Copy it into a
+          # runner-owned publishing directory before adding the course.
+          mkdir -p _publish/planning
+          cp -R _site/. _publish/
+          cp -R course/dist/. _publish/planning/
+          touch _publish/.nojekyll
           node --input-type=module <<'NODE'
           import { readFileSync, existsSync } from 'node:fs';
           import assert from 'node:assert/strict';
-          const home = readFileSync('_site/index.html', 'utf8');
+          const home = readFileSync('_publish/index.html', 'utf8');
           assert(home.includes('古法编程时代') && home.includes('硅基学步'));
           assert(home.includes('href="/blog/"') && home.includes('href="/planning/"'));
-          const blog = readFileSync('_site/blog/index.html', 'utf8');
+          const blog = readFileSync('_publish/blog/index.html', 'utf8');
           assert(blog.includes('box-item'), 'The historical article list must render.');
-          const course = readFileSync('_site/planning/index.html', 'utf8');
+          const course = readFileSync('_publish/planning/index.html', 'utf8');
           assert(course.includes('/planning/assets/'), 'Course assets must use the subdirectory.');
-          assert(existsSync('_site/planning/articles/01.md'));
-          assert(existsSync('_site/planning/media/01/video.mp4'));
-          assert(readFileSync('_site/CNAME', 'utf8').trim() === 'letsgogo.top');
+          assert(existsSync('_publish/planning/articles/01.md'));
+          assert(existsSync('_publish/planning/media/01/video.mp4'));
+          assert(readFileSync('_publish/CNAME', 'utf8').trim() === 'letsgogo.top');
           console.log('Portal, historical blog, planning course and domain verified.');
           NODE
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: _site
-  deploy:
-    if: github.ref == 'refs/heads/master'
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Publish the verified combined site
-        id: deployment
-        uses: actions/deploy-pages@v4
-name: Publish letsgogo.top
-
-on:
-  push:
-    branches: [master, site/dual-entry-20261024]
-  workflow_dispatch:
-  schedule:
-    # The course has its own repository. Refresh it without a cross-repo token.
-    - cron: '17 */6 * * *'
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: letsgogo-pages
-  cancel-in-progress: false
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Check out the portal and historical blog
-        uses: actions/checkout@v4
-        with:
-          path: blog
-      - name: Check out the planning course
-        uses: actions/checkout@v4
-        with:
-          repository: luckyPT/silicon-baby-steps
-          ref: main
-          path: course
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 24
-          cache: npm
-          cache-dependency-path: course/package-lock.json
-      - name: Add the portal link to the course navigation
-        run: |
-          node --input-type=module <<'NODE'
-          import { readFileSync, writeFileSync } from 'node:fs';
-          const file = 'course/src/main.ts';
-          const source = readFileSync(file, 'utf8');
-          const anchor = '<div class="topbar-right">';
-          if (source.split(anchor).length !== 2) throw Error('Course navigation changed; review the portal link adapter.');
-          writeFileSync(file, source.replace(anchor, anchor + '<a class="github-link" href="/">网站首页 ↗</a>'));
-          NODE
-      - run: npm ci
-        working-directory: course
-      - run: npm test
-        working-directory: course
-      - run: npm run verify:media
-        working-directory: course
-      - run: npm run build -- --base=/planning/
-        working-directory: course
-      - name: Configure the existing Pages site
-        uses: actions/configure-pages@v5
-      - name: Build the historical blog with GitHub Pages Jekyll
-        uses: actions/jekyll-build-pages@v1
-        with:
-          source: ./blog
-          destination: ./_site
-      - name: Assemble and verify both entrances
-        run: |
-          mkdir -p _site/planning
-          cp -a course/dist/. _site/planning/
-          touch _site/.nojekyll
-          node --input-type=module <<'NODE'
-          import { readFileSync, existsSync } from 'node:fs';
-          import assert from 'node:assert/strict';
-          const home = readFileSync('_site/index.html', 'utf8');
-          assert(home.includes('古法编程时代') && home.includes('硅基学步'));
-          assert(home.includes('href="/blog/"') && home.includes('href="/planning/"'));
-          const blog = readFileSync('_site/blog/index.html', 'utf8');
-          assert(blog.includes('box-item'), 'The historical article list must render.');
-          const course = readFileSync('_site/planning/index.html', 'utf8');
-          assert(course.includes('/planning/assets/'), 'Course assets must use the subdirectory.');
-          assert(existsSync('_site/planning/articles/01.md'));
-          assert(existsSync('_site/planning/media/01/video.mp4'));
-          assert(readFileSync('_site/CNAME', 'utf8').trim() === 'letsgogo.top');
-          console.log('Portal, historical blog, planning course and domain verified.');
-          NODE
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: _site
+          path: _publish
   deploy:
     if: github.ref == 'refs/heads/master'
     needs: build
