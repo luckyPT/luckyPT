@@ -80,7 +80,13 @@ jobs:
           const course = readFileSync('_publish/planning/index.html', 'utf8');
           assert(course.includes('/planning/assets/'), 'Course assets must use the subdirectory.');
           assert(existsSync('_publish/planning/articles/01.md'));
-          assert(existsSync('_publish/planning/media/01/video.mp4'));
+          const media = JSON.parse(readFileSync('_publish/planning/media/manifest.json', 'utf8'));
+          assert(media.chapters.length === 26);
+          assert(media.chapters.every(ch => ch.video === null && ch.videoStatus === 'external' && ch.platformVideos.length === 2));
+          assert(existsSync('_publish/planning/articles/26.md'));
+          assert(existsSync('_publish/planning/experiments/26.json'));
+          assert(!existsSync('_publish/planning/media/01/video.mp4'));
+          assert(!existsSync('_publish/planning/course-media'));
           assert(readFileSync('_publish/CNAME', 'utf8').trim() === 'letsgogo.top');
           console.log('Portal, historical blog, planning course and domain verified.');
           NODE
