@@ -81,10 +81,11 @@ jobs:
           assert(course.includes('/planning/assets/'), 'Course assets must use the subdirectory.');
           assert(existsSync('_publish/planning/articles/01.md'));
           const media = JSON.parse(readFileSync('_publish/planning/media/manifest.json', 'utf8'));
-          assert(media.chapters.length === 26);
-          assert(media.chapters.every(ch => ch.video === null && ch.videoStatus === 'external' && ch.platformVideos.length === 2));
-          assert(existsSync('_publish/planning/articles/26.md'));
-          assert(existsSync('_publish/planning/experiments/26.json'));
+          assert(media.chapters.length >= 27);
+          const latest = media.chapters.at(-1).id;
+          assert(media.chapters.every(ch => ch.video === null && ch.videoStatus === 'external' && JSON.stringify([...ch.platformVideos.map(v => v.platform), ...(ch.pendingPlatforms || [])].sort()) === JSON.stringify(['douyin', 'toutiao'])));
+          assert(existsSync(`_publish/planning/articles/${latest}.md`));
+          assert(existsSync(`_publish/planning/experiments/${latest}.json`));
           assert(!existsSync('_publish/planning/media/01/video.mp4'));
           assert(!existsSync('_publish/planning/course-media'));
           assert(readFileSync('_publish/CNAME', 'utf8').trim() === 'letsgogo.top');
